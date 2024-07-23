@@ -1,0 +1,30 @@
+:root {
+    --primary-color:  #E4ABD5;
+    --secondary-color: #5A63A8 ;
+}
+
+.text-purple {
+    color: var(--primary-color);
+}
+.bg-purple {
+    background-color: var(--primary-color);
+}
+
+.section-title {
+    font-size: 4rem ;
+}
+
+.App .btn {
+    font-weight: 500;
+}
+
+@media screen and(max-width: 768px ) {
+    .section-title {
+        font-size: 2.5rem;
+    }
+}
+@media screen and(max-width: 576px ) {
+    .section-title {
+        font-size: 2rem;
+    }
+}

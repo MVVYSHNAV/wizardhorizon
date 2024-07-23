@@ -1,0 +1,35 @@
+.section4 {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .section4 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section4 .image-container {
+
+    flex: 1;
+  }
+  
+  .section4 .text-container {
+    flex: 2;
+    padding: 3rem;
+  }
+  
+  .section4 h2 {
+    font-weight: bold;
+  }
+  
+  .section4 p {
+    margin-top: 10px;
+  }
+  
+  .section4 .btn-primary {
+    margin-top: 20px;
+    background: linear-gradient(45deg, #ff5f6d, #ffc371);
+    border: none;
+  }
+  

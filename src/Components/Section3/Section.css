@@ -1,0 +1,37 @@
+.section3 {
+    background-color: #FF5A5F; /* Red background color */
+    padding: 50px 0;
+    position: relative;
+    margin-top: 20%;
+    overflow: hidden;
+  }
+  
+  .section3 .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .section3 h2 {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .custom-carousel .carousel-item {
+    background: #000; /* Black background for each item */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .custom-carousel img {
+    display: flex;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .custom-carousel .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  

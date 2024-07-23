@@ -1,0 +1,29 @@
+.container2{
+    margin-top: 15rem;
+}
+.text1 {
+    font-size: 2rem;
+    color: #000;
+    font-weight: 700;
+  }
+  
+  .text2 {
+    font-size: 2rem;
+    color: #5A63A8;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 992px) {
+    .text1 {
+      font-size: 1.5rem;
+    }
+    
+    .text2 {
+      font-size: 2rem;
+    }
+    
+    
+      .text-container {
+        text-align: center;
+      }
+}
