@@ -36,13 +36,13 @@ function NavBar() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <Nav.Link href='#' className='text-black' >
+            <Nav.Link  as={Link} to= '/Contact' href='#' className='text-black' >
               What We Do
             </Nav.Link>
-            <Nav.Link href='#' className='text-black '>
+            <Nav.Link  as={Link} to= '/Contact' href='#' className='text-black '>
               Who We Are
             </Nav.Link>
-            <Nav.Link href='#' className='text-black '>
+            <Nav.Link as={Link} to= '/Contact' href='#' className='text-black '>
               Our Works
             </Nav.Link>
             <Nav.Link  as={Link} to= '/Contact' element={Contact} href='#' className='text-black '>
