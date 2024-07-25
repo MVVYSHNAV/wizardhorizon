@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../../Assets/logo.png';
-import { Link } from 'react-router-dom';
 import Contact from '../Contact/Contact';
 
 function NavBar() {
@@ -36,16 +35,16 @@ function NavBar() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <Nav.Link  as={Link} to= '/Contact' href='#' className='text-black' >
+            <Nav.Link to= '/Contact' href='#' className='text-black' >
               What We Do
             </Nav.Link>
-            <Nav.Link  as={Link} to= '/Contact' href='#' className='text-black '>
+            <Nav.Link to= '/Contact' href='#' className='text-black '>
               Who We Are
             </Nav.Link>
-            <Nav.Link as={Link} to= '/Contact' href='#' className='text-black '>
+            <Nav.Link to= '/Contact' href='#' className='text-black '>
               Our Works
             </Nav.Link>
-            <Nav.Link  as={Link} to= '/Contact' element={Contact} href='#' className='text-black '>
+            <Nav.Link to= '/Contact' element={Contact} href='#' className='text-black '>
               Contact
             </Nav.Link>
           </motion.ul>
